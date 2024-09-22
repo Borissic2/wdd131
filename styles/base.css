@@ -1,0 +1,141 @@
+body {
+    font-family: 'Lora';
+    box-sizing: border-box;
+}
+
+.navigation {
+    background-color: #9FC490;
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+.navigation a {
+    color: aliceblue;
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    height: 4vh;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 940px) {
+    nav ul {
+        display: flex;
+    }
+}
+
+
+.navigation ul li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    margin-top: 10px;
+}
+
+.navigation a:hover {
+    color: rgb(176, 224, 64);
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: #051923;
+    padding: 1rem;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+
+main {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    height: 71vh;
+    gap: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: grid;
+    background: #465362;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column: 1 / 3;
+    border-color: aliceblue;
+    border-style: groove;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    grid-column: 1 / 3 ;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+h3 {
+    display: block;
+    grid-column: 1 / 3;
+}
+
+.card p {
+    display: block;
+    grid-row: auto;
+    text-align: left;
+}
+
+.card2 {
+    background-color: #82A3A1;
+    grid-column: 3 / 4;
+    border-style: groove;
+}
+
+.card2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    font-family: 'Lora';
+}
+
+.card img {
+    margin-bottom: 10px;
+    max-width: 29%;
+    height: auto;
+    justify-content: center;
+}
+
+footer {
+    background: #C0DFA1;
+    padding: 1rem;
+    text-align: center;
+    height: 10vh;
+}
+
+footer p {
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+.card2 ul li{
+    text-decoration: none;
+    text-align: center;
+}
